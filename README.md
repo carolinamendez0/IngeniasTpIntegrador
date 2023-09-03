@@ -127,25 +127,16 @@ MONGODB_URLSTRING=mongodb+srv://caro:1234@nube0.ztddbrv.mongodb.net/?retryWrites
 ```mermaid
 graph TD
   A[Inicio] --> B[Crear servidor Express]
-  B --> C[Agregar los require necesarios, express, dotenv ..]
-  C --> D[Incluir las funciones de conectar y desconectar declaradas en src/mongodb.js]
-  D --> E[Definir endpoint GET /frutas]
-  D --> F[Definir endpoint PUT /frutas/:id]
-  D --> G[Definir endpoint GET /frutas/nombre/:nombre]
-  D --> H[Definir endpoint POST /frutas/]
-  E --> K[Retornar todo el contenido]
-  F --> L[Aplicar filtro por Id]
-  G --> M[Aplicar filtro por nombre de fruta]
-  H --> N[Crea nueva fruta a partir del objeto enviado en el body]
-```
-##grafico ejemplo
-```mermaid
-graph TD
-  A[Inicio] --> B[Crear servidor Express]
   B --> C[Agregar los require necesarios]
   C --> D[Incluir las funciones deconectar y desconectar declaradas en src/mongodb.js]
   D --> E[Definir endpoint GET /frutas]
   D --> F[Definir endpoint PUT /frutas/:id]
+  D --> G[Definir endpoint GET /frutas/nombre/:nombre]
+  D --> H[Definir endpoint POST /frutas/]
+  E --> I[Retornar todo el contenido]
+  F --> J[Aplicar filtro por Id]
+  G --> K[Aplicar filtro por nombre de fruta]
+  H --> L[Crea nueva fruta a partir del objeto enviado en el body]
 ```
 ### Colaboradores 
 ***
