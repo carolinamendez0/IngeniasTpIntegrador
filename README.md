@@ -125,7 +125,7 @@ MONGODB_URLSTRING=mongodb+srv://caro:1234@nube0.ztddbrv.mongodb.net/?retryWrites
 
 ### Graficos 
 ```mermaid
-graph TD;
+graph TD
   A[Inicio] --> B[Crear servidor Express]
   B --> C[Agregar los require necesarios, express, dotenv ..]
   C --> D[Incluir las funciones de conectar y desconectar declaradas en src/mongodb.js]
