@@ -145,9 +145,6 @@ graph TD
   B --> C[Agregar los require necesarios]
   C --> D[Incluir las funciones deconectar y desconectar declaradas en src/mongodb.js]
   D --> E[Definir endpoint GET /frutas]
-  D --> F[Definir endpoint PUT /frutas/:id]
-  D --> G[Definir endpoint GET /frutas/nombre/:nombre]
-  D --> H[Definir endpoint POST /frutas/]
 ```
 ### Colaboradores 
 ***
