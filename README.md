@@ -132,11 +132,9 @@ graph TD
   D --> E[Definir endpoint GET /frutas]
   D --> F[Definir endpoint PUT /frutas/:id]
   D --> G[Definir endpoint GET /frutas/nombre/:nombre]
-  D --> H[Definir endpoint POST /frutas/]
   E --> I[Retornar todo el contenido]
   F --> J[Aplicar filtro por Id]
   G --> K[Aplicar filtro por nombre de fruta]
-  H --> L[Crea nueva fruta a partir del objeto enviado en el body]
 ```
 ### Colaboradores 
 ***
